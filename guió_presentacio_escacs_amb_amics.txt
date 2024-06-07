@@ -1,0 +1,22 @@
+QUè és ESCACS AMB AMICS?
+
+ESCACS AMB AMICS és una web on un script JS escriu diferents elements del DOM (divisors i caràcters unicode) 
+i els fa interactius (incloent programació JS i classes CSS) de manera que es pugui jugar a escacs.
+
+QUINS COMPONENTS FORMEN EAA?
+EAA està format per una base de dades on es guarden els usuaris, un seguit de pàgines PHP entre les quals s'inclouen index, on tenim el login. signup, on tenim el registre
+d'usuari. i diferents pàgines per diferents modes de joc. play, playS i blitz. A més a més conté funcionalitats PHP com les consultes a la BD, els scripts JS i els fitxers CSS
+
+QUÈ INCLOU LA PRESENTACIÓ?
+Jerarquia de directori
+
+Exemples de codi rellevant
+
+Funció ESCAC CHECK
+
+CONEXIÓ A DB (check username write user data)
+
+CONCLUSIÓ
+Era un projecte molt ambiciós fer-ho multijugador i amb memòria
+Ens ha ajudat a entendre la versatilitat del component front end, la imaginació posa el límit
+Hem après molt amb la lògica de programació. El Pol és un crack

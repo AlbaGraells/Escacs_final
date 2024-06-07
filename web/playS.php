@@ -13,18 +13,21 @@ if(isset($_SESSION['id'])&& isset($_SESSION['nom_public'])):?>
         <title>Chess Game</title>
     </head>
     <body>
-
-    <?php include("includes/header.php"); ?>
-    <main>  
-        <div id="container">
-            <!-- <div id="turn-indicator">Turno: Blancas</div> -->
-            <h3 class="h3">
-                  Muy bienvenidxs <?php echo $_SESSION['nom_public'] ?>
+        
+        <?php include("includes/header.php"); ?>
+        <main>  
+            <div id="container">
+                
+                <canvas id="canv"></canvas>
+                
+                <div id="turn-indicator">Turno: Blancas</div>
+                <h3 class="h3">
+                    Muy bienvenidxs <?php echo $_SESSION['nom_public'] ?>
                 </h3>
-            <div class="info-top">
-                <div class="info">
-                    <div class="info-item">
-                        <i class="fas fa-chess-knight"></i>
+                <div class="info-top">
+                    <div class="info">
+                        <div class="info-item">
+                            <i class="fas fa-chess-knight"></i>
                         <span>1</span>
                     </div>
                     <div class="info-item">
@@ -92,6 +95,7 @@ if(isset($_SESSION['id'])&& isset($_SESSION['nom_public'])):?>
 </main>
 
 <script src="js/script.js"></script>
+<script src="js/matrix.js"></script>
 </body>
 </html>
 <?php else: ?>
